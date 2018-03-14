@@ -7,7 +7,7 @@ import ToggleButton from '../../UI/ToggleButton/ToggleButton';
 
 const toolbar = (props) => (
   <header className={classes.Toolbar}>
-    <ToggleButton />
+    <ToggleButton clicked={props.sideDrawerToggle} />
     <div className={classes.Logo}>
       <Logo />
     </div>
