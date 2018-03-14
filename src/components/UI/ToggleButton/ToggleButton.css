@@ -1,0 +1,13 @@
+.ToggleButton {
+    width: 34px;
+}
+
+.ToggleButton .line {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+}
+
+.ToggleButton .line + .line {
+    margin-top: 6px;
+}
